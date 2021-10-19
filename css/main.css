@@ -1,0 +1,258 @@
+body{
+	font-family:'Open Sans', sans-serif;
+	color: #000;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+p {
+	line-height: 1.9em;
+}
+.container{
+	width: 1171px;
+	margin: 0 auto;
+}
+.header{
+	background: rgba(78,189,254,1);
+	background: -moz-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(left, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(to right, rgba(78,189,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 62px;
+	padding-bottom: 80px;
+	color: #fff;
+}
+.case{
+	width: 700px;
+	height: 700px;
+}
+.wrapper{
+	display: flex;
+  	justify-content: space-between;
+}
+.offer {
+	margin-top: 147px;
+	width: 765px;
+}
+.title {
+	font-size: 37px;
+	line-height: 1.5em;
+	width:550px;
+}
+.title span{
+	font-size: 59px;
+	line-height: 1.5em;
+	
+}
+.intro {
+	margin-bottom: 45px;
+	margin-top: 28px;
+	width:400px;
+	font-size: 16px;
+}
+
+.btn{
+	width: 221px;
+	height: 56px;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+	background: #ffd429;
+	display: block;
+	padding: 19px 0;
+	text-align: center;
+	text-decoration: none;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background: #e98537;
+}
+.learn{
+	margin-top: 109px;
+	margin-bottom: 122px;
+}
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+.skills {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 75px;
+}
+.skill {
+	margin-bottom: 7px;
+	width: 300px;
+	background: url('../img/time.png') no-repeat center top;
+}
+.skill-title {
+	font-size: 19px;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 7px;
+}
+.skill-text {
+	margin-top: 7px;
+	text-align: center;	
+}
+.skill-free {
+	background: url('../img/palm.png') no-repeat center top;
+}
+.skill-change {
+	width: 300px;
+	background: url('../img/rocket.png') no-repeat center top;
+}
+.mail {
+	background: #ecf3f8;
+	padding-top: 104px;
+	padding-bottom: 102px;
+}
+.section-title {
+	font-size: 30px;
+	color: #000;
+	text-align: center;	
+	margin-bottom: 30px;
+}
+.form {
+	margin: 0 auto;
+	text-align: center;
+	width: 343px;
+}
+.input {
+	width: 343px;
+	height: 54px;
+	border: 1px solid #bbbbbb;
+	font-family: 'Ubuntu', sans-serif;
+	color: red;
+	padding-left: 30px;
+	margin-top: 15px;
+}
+.input::-webkit-input-placeholder {
+ color: #b2b1b5;
+}
+.animeted {
+	opacity: 0;
+}
+.btn-form {
+	width: 343px;
+	border: 0;
+	cursor: pointer;
+	display: inline;
+	margin-top: 13px;
+}
+
+.footer {
+	padding: 33px 0;
+	background: #164d7a;
+}
+
+.credits {
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;	
+}
+
+
+.red {
+	color: red;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+	.case {
+		margin-top: 100px;
+   		width: 450px;
+    	height: 450px;
+		flex-direction: column;
+		margin: 0;
+		padding: 0;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+	.wrapper {
+		flex-direction: column;
+
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.case {
+		display: block;
+		width: 650px;
+		margin: 147px auto 0;
+		height: 650px;
+	}
+	.skills {
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+	.case {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.offer {
+		 width: 100%;
+	}
+	.container {
+		width: auto;
+	}
+	.form {
+		width: 100%;
+	}
+	.input {
+		width: 100%;
+	}
+	.btn-form {
+		width: 100%;
+	}
+	.case {
+		width: 100%;
+		height: 100%;
+	}
+	.title {
+		width: 100%;
+	}
+}
